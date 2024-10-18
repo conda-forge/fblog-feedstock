@@ -1,5 +1,5 @@
 {% set name = "fblog" %}
-{% set version = "4.13.0" %}
+{% set version = "4.13.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/brocode/fblog/archive/v{{ version }}.tar.gz
-  sha256: 1bf50a4b7f1775dba0bacfb5e7709baf8abebd3e4cca2f728a1976950b0d2a2e
+  sha256: 0212dd590cdcb4794a44ea79535ba298c1e971bb344a248fb84528777b0998f1
 
 build:
   number: 0
