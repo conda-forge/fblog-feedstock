@@ -1,5 +1,5 @@
 context:
-  version: "4.15.0"
+  version: "4.16.0"
 
 package:
   name: fblog
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/brocode/fblog/archive/v${{ version }}.tar.gz
-  sha256: c2f56c9e2f4c5fbd8b36cf1611905255a0ec1db51b8eea49d1c0db779a4949d3
+  sha256: 061288675d40ca9b70c8e3e0508f09ddee70b8a09f25c7b8ef2dbd6406d4e213
 
 build:
   number: 0
